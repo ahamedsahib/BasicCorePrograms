@@ -7,6 +7,8 @@ namespace BasicCorePrograms
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome To Basic Core Programs");
+            FlipCoin.ReadInput();
+
         }
     }
 }
