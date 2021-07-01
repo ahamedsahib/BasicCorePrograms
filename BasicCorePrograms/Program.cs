@@ -9,7 +9,7 @@ namespace BasicCorePrograms
             Console.WriteLine("Welcome To Basic Core Programs");
             Console.WriteLine("Choose The Program You Want Run");
             Console.WriteLine("1)Flip Coin\n2)Leap Yaar\n3)PowerOf2\n4)Harmonic Number\n5)Prime Factor\n6)Qutient&Remainder");
-            Console.WriteLine("7)SwapNumbers\n8)EvenOdd\n9)Exit");
+            Console.WriteLine("7)SwapNumbers\n8)EvenOdd\n9)VowelConsonant\n10)Exit");
             Console.WriteLine("Choose one");
             int option = Convert.ToInt32( Console.ReadLine());
             switch (option)
@@ -37,6 +37,9 @@ namespace BasicCorePrograms
                     break;
                 case 8:
                     EvenOdd.ReadInput();
+                    break;
+                case 9:
+                    Alphabet.ReadInput();
                     break;
                 default:
                     Console.WriteLine("Choose Correct Option");
