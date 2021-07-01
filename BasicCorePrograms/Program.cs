@@ -8,7 +8,7 @@ namespace BasicCorePrograms
         {
             Console.WriteLine("Welcome To Basic Core Programs");
             Console.WriteLine("Choose The Program You Want Run");
-            Console.WriteLine("1)Flip Coin\n2)Leap Yaar\n3)PowerOf2\n4)Harmonic Number\n5)Prime Factor\n6)Exit");
+            Console.WriteLine("1)Flip Coin\n2)Leap Yaar\n3)PowerOf2\n4)Harmonic Number\n5)Prime Factor\n6)Qutient&Remainder\n7)Exit");
             Console.WriteLine("Choose one");
             int option = Convert.ToInt32( Console.ReadLine());
             switch (option)
@@ -27,6 +27,9 @@ namespace BasicCorePrograms
                     break;
                 case 5:
                     PrimeFactors.ReadInput();
+                    break;
+                case 6:
+                    QuotientRemainder.ReadInput();
                     break;
                 default:
                     Console.WriteLine("Choose Correct Option");
