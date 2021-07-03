@@ -19,12 +19,12 @@ namespace BasicCorePrograms
             for (int i = 2; i<= num; i++)
             {
                 
-                if (num % i == 0)
+                if (num % i == 0)//used to find the factors of the number
                 {
                     isPrime = 1;
-                    for (int j = 2; j <= i / 2; j++)
+                    for (int j = 2; j <= i / 2; j++) //to iterate the loop if it divisble by any of prime factor
                     {
-                        if (i % j == 0)
+                        if (i % j == 0)//used to find prime Number from the factors
                         {
                             isPrime = 0;
                             break;
